@@ -1,0 +1,53 @@
+/* Fondo negro para toda la página */
+body {
+    background-color: #000000;
+    color: #fff; /* Texto blanco para contraste */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+.card {
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  .btn-primary {
+    background-color: #a10000; /* Azul primario */
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  .btn-primary:hover {
+    background-color: #570303; /* Azul más oscuro al pasar el cursor */
+  }
+  .card-text {
+    font-size: 0.9rem;
+  }
+  
+  textarea.form-control {
+    resize: none;
+  }
+  
+  @media (max-width: 576px) {
+    .card {
+      padding: 0.75rem;
+    }
+  
+    .card-title {
+      font-size: 1rem;
+    }
+  }
+  
